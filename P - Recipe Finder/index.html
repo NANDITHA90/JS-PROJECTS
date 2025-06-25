@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RECIPE FINDER</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f5ebcc] min-h-screen">
+
+    <div>
+
+        <div class="bg-[#123432] flex justify-center items-center gap-5 text-white py-3 text-2xl font-lighter tracking-widest">
+            <img src="https://www.freeiconspng.com/thumbs/recipes-icon-png/recipe-box-home-page-icon-19.png" class="h-[50px]"> Recipe Finder
+        </div>
+
+        <div class="banner flex flex-col justify-center align-center p-9">
+
+            <div class="search flex justify-center align-center w-full">
+
+                <input id="searchInput" type="text" class="h-[40px] w-[50%] p-3 border-[2px] border-black border-dashed" placeholder="Search by Ingredient or Recipe Name...">
+
+                <button id="searchBtn" class="searchBtn bg-[#654465] text-white font-light tracking-widest py-1 px-5 ml-5 rounded border-[2px] border-black">Search</button>
+            
+            </div>
+
+            <!-- Results -->
+            <div id="results" class="mt-9 flex flex-wrap justify-center align-center gap-5">
+
+                <div id="bannerPage" class="banner-page flex flex-col items-center justify-center text-center mt-9 ">
+
+                    <img src="https://images.vexels.com/media/users/3/350905/isolated/preview/f011235c8daaafc12c7949654f7c343a-cheerful-recipe-card-design-with-chef-hat.png" class="h-[200px] w-[200px] mt-9">
+
+                    <h1 class="text-[#123432] font-bold text-3xl mt-3">Ready to Cook Something Amazing...?</h1>
+
+                    <p class="mt-3 text-[#123432] font-light text-xl ">Search for recipes by entering an ingredient you have or the name of a dish you'd like to make.</p>
+
+
+
+                </div>
+
+            </div>         
+
+            
+
+        </div>
+
+    </div>
+
+    
+
+    
+
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
